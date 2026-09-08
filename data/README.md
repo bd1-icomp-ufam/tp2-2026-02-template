@@ -2,7 +2,7 @@
 
 Este diretório fica **vazio no repositório** e é usado em tempo de execução.
 
-1. Baixe a amostra oficial `artigo-amostra.csv.gz` indicada no enunciado e coloque-a aqui.
+1. Baixe a amostra oficial [`artigo-amostra.csv.gz`](https://drive.google.com/file/d/1mUXzZ3ckewhY5uEQsCA0CP4kRjVhxFY8/view?usp=sharing) e coloque-a aqui.
 2. Descompacte antes da primeira carga:
 
 ```

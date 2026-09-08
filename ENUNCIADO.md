@@ -49,7 +49,7 @@ Exemplo de uma linha do arquivo:
 "1";"Poster: 3D sketching and flexible input for surface design: A case study.";"2013";"Anamary Leal|Doug A. Bowman";"0";"2016-07-28 09:36:29";"Poster: 3D sketching and flexible ..."
 ```
 
-O arquivo será disponibilizado comprimido (`artigo-amostra.csv.gz`) e **não deve ser copiado para dentro da imagem Docker**. Antes da primeira carga, deve ser descompactado no diretório `data/` com `gzip -dk data/artigo-amostra.csv.gz`. O arquivo CSV resultante é montado em tempo de execução no diretório `/data`.
+A amostra oficial está disponível comprimida em [`artigo-amostra.csv.gz`](https://drive.google.com/file/d/1mUXzZ3ckewhY5uEQsCA0CP4kRjVhxFY8/view?usp=sharing) (204.279 registros, 33 MB comprimidos, 106 MB descompactados) e **não deve ser copiada para dentro da imagem Docker**. Antes da primeira carga, deve ser descompactado no diretório `data/` com `gzip -dk data/artigo-amostra.csv.gz`. O arquivo CSV resultante é montado em tempo de execução no diretório `/data`.
 
 Observe que os campos têm tamanho variável. A definição do layout do registro em disco — tamanho fixo com truncamento, tamanho variável com indicador de comprimento, ou outra alternativa — é uma decisão de projeto, que deve ser justificada no relatório.
 
