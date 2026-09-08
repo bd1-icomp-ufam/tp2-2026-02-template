@@ -187,7 +187,7 @@ Tags com outro nome, branches chamados `v1.0` e repositórios sem o docente como
 
 ## 11. Arguição
 
-Após a entrega, toda a turma será chamada para uma **arguição individual experimental pelo Discord**, em data e hora agendadas, com perguntas sobre o código e os números do próprio relatório. A arguição compõe a nota conforme a Seção 12, mas terá peso reduzido nesta primeira aplicação. A ausência individual na data e hora agendadas zera esse item. Se problemas técnicos ou operacionais impedirem a aplicação da arguição em condições equivalentes para toda a turma, os 10% correspondentes serão atribuídos integralmente a todas as entregas.
+Após a entrega, toda a turma será chamada para uma **arguição individual experimental pelo Discord**, em data e hora agendadas, com perguntas sobre o código e os números do próprio relatório. A arguição compõe a nota conforme a Seção 12, mas terá peso reduzido nesta primeira aplicação. A ausência individual na data e hora agendadas zera esse item. O agendamento será feito por um formulário distribuído posteriormente.
 
 ## 12. Avaliação
 
