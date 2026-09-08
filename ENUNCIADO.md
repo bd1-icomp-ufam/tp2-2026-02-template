@@ -29,7 +29,7 @@ O trabalho deve ser desenvolvido **individualmente** e implementado em **C++**, 
 
 ## 2. Arquivo de entrada
 
-O arquivo fornecido é um **arquivo-texto de entrada**, no formato CSV. Ele contém uma amostra oficial de aproximadamente 200.000 registros sobre artigos científicos publicados em conferências, com campos delimitados por aspas e separados por ponto e vírgula. A amostra será a mesma para toda a turma e será extraída do conjunto original de aproximadamente 1.020.000 registros.
+O arquivo fornecido é um **arquivo-texto de entrada**, no formato CSV. Ele contém a amostra oficial, com 204.279 registros sobre artigos científicos publicados em conferências, campos delimitados por aspas e separados por ponto e vírgula. A amostra é a mesma para toda a turma e foi extraída do conjunto original de 1.021.439 registros por amostragem sistemática, tomando um registro a cada cinco, o que preserva a faixa completa de identificadores.
 
 Esse CSV **não é o arquivo de dados do banco** e não deve ser usado diretamente pelos programas de consulta. Seu papel termina na carga inicial: o programa `upload` deve lê-lo e transformar seus registros na representação física definida para o arquivo de dados paginado. As consultas posteriores devem acessar somente o arquivo de dados e, na Parte 2, os arquivos de índice produzidos pelo trabalho.
 
