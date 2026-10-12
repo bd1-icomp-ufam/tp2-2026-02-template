@@ -1,5 +1,4 @@
 #include "csv_reader.hpp"
-
 #include <cstdlib>
 #include <stdexcept>
 #include <vector>

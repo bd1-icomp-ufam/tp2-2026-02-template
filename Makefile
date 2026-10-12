@@ -14,7 +14,8 @@ IMAGE    ?= tp2
 DATA_DIR ?= $(shell pwd)/data
 
 PROGS   := upload findrec findtitle findrange seek1 seek2 seekrange
-COMMON  := src/blockio.cpp src/csv_reader.cpp
+# ⬇⬇⬇ ÚNICA ALTERAÇÃO: incluir hash_file.cpp e bplustree.cpp ⬇⬇⬇
+COMMON  := src/blockio.cpp src/csv_reader.cpp src/hash_file.cpp src/bplustree.cpp
 BINS    := $(addprefix bin/,$(PROGS))
 
 .PHONY: build clean docker-build $(addprefix docker-run-,$(PROGS))

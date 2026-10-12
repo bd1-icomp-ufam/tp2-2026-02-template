@@ -15,7 +15,6 @@ namespace {
 std::runtime_error erro(const std::string& contexto, const std::string& path) {
     return std::runtime_error(contexto + " (" + path + "): " + std::strerror(errno));
 }
-
 }  // namespace
 
 BlockFile::~BlockFile() { close(); }

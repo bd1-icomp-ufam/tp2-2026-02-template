@@ -9,6 +9,7 @@
 #ifndef CSV_READER_HPP
 #define CSV_READER_HPP
 
+#include <cstdint>
 #include <fstream>
 #include <string>
 
